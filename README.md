@@ -57,7 +57,7 @@ This project is a mobile application built using the Ionic framework to help use
 
 1. **Clone Repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/farahnazhoque/SleepTracker.git
    cd a4-sleeptracker
 2. **Install Ionic CLI:**
    ```bash
