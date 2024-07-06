@@ -59,13 +59,13 @@ This project is a mobile application built using the Ionic framework to help use
    ```bash
    git clone <repository_url>
    cd a4-sleeptracker
-2. **Install Ionic CLI:
+2. **Install Ionic CLI:**
    ```bash
    npm install -g @ionic/cli
-3. **Install Dependencies:
+3. **Install Dependencies:**
    ```bash
    npm install
-4. **Start the Ionic App:
+4. **Start the Ionic App:**
    ```bash
    ionic serve
 
