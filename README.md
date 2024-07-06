@@ -53,27 +53,24 @@ This project is a mobile application built using the Ionic framework to help use
 - Justifications for design choices aligning with good principles of mobile design.
 - Any additional features or significant deviations from the starter code should be documented.
 
-## Demonstration Preparation
-- Comprehensive demo video showcasing the app’s functionality, including core features and any additional capabilities developed.
-- Demonstrate practical use of native device features or data backup.
-
-## Submission Protocol
-- Organized and clean project repository, excluding the `node_modules` folder before zipping.
-- Submit the zipped project via Canvas, including all source files, `package.json`, README, and demo videos.
-
-## Evaluation Metrics
-- Functionality of sleep and sleepiness logging (6 points)
-- Viewing capabilities for logged data (3 points)
-- Implementation and integration of a native device feature or data backup (3 points)
-- Adherence to good mobile design principles (3 points)
-- Overall quality and user experience of the app (3 points)
-- Completeness and clarity of documentation and demonstration (2 points)
-- Optional extra credit for dual implementation of device features and data backup (up to 1 extra point)
-
 ## Project Setup Instructions
 
 1. **Clone Repository:**
    ```bash
    git clone <repository_url>
    cd a4-sleeptracker
-2. ** Install Ionic CLI:
+2. **Install Ionic CLI:
+   ```bash
+   npm install -g @ionic/cli
+3. **Install Dependencies:
+   ```bash
+   npm install
+4. **Start the Ionic App:
+   ```bash
+   ionic serve
+
+## Development Notes
+### Dependencies
+1. **Node.js:** v20.11.0 LTS or newer
+2. **Ionic CLI:** Latest version
+3. **Nanoid:** For UUID generation
